@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://images.unsplash.com/photo-1458966480358-a0ac42de0a7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700"); */
+    background: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+
+}
+#textarea{
+    resize: none;
+    width: 50%;
+    height: 20%;
+    background-color:white;
+    
+    color: rgb(32, 26, 26);
+    /* border:solid 3px  darkgray ; */
+    margin: auto;
+   border-color: black;
+   /* box-sizing: border-box; */
+   
+    padding: 10px;
+}
+#minclude{
+    width: 360px;
+        background-color: white;
+        /* background: url("https://images.unsplash.com/photo-1458929526027-052f5d6a3c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
+        opacity: 0.8;
+        /* z-index: 12; */
+        /* font-family: sans-serif; */
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        color: black;
+        justify-content: center;
+        position:relative;
+        box-shadow: rgb(19, 18, 18) 0px 5px 15px;
+}
+#forminclude {
+    width: 360px;
+    /* background-color: white; */
+   
+  
+    display: flex;
+    flex-direction: column;
+   
+    height: 300px;
+    color: black;
+    
+    position: absolute;
+    box-shadow: rgb(19, 18, 18) 0px 5px 15px;
+    /* box-shadow: rgba(232, 12, 151, 0.25) -20px 54px 55px, rgba(146, 11, 161, 0.25) -20px -20px 30px, rgba(209, 19, 209, 0.25) 3px 4px 6px, rgba(209, 43, 43, 0.25) 3px 12px 13px, rgba(207, 25, 207, 0.25) 3px 3px 52px; */
+
+}
+#div{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left:15% ;
+    margin-right: 15%; */
+    padding: 0 15%;
+}
+#total{
+    color:red;
+}
+#remain{
+color:red;
+}
